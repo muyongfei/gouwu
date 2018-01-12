@@ -1,0 +1,813 @@
+/*
+* @Author: cat
+* @Date:   2017-11-14 10:39:33
+* @Last Modified by:   cat
+* @Last Modified time: 2018-01-12 09:00:24
+*/
+@import url('base.css');
+body,h1,h2,h3,h4,h5,h6,input,form,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+body{
+	font-size: 12px;
+	height: auto;
+	/* overflow: hidden; */
+}
+image{
+	display: block;
+}
+input{
+	display: block;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+
+.tp{
+	width: 100%;
+	height: 216px;
+	background: red;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+section{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+		background: yellow;
+	}
+	section .ul{
+		width: 400%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: blue;
+	}
+	 section .ul>li{
+		display: block;
+		width: 750px;
+		height: 100%;
+		float: left;
+		background: green;
+	}
+	section img,section a{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	section .dian{
+		width: 1.4rem;
+		height: 0.3rem;
+		/* background: red; */
+		position: absolute;
+		left: 50%;
+		bottom: 0.2rem;
+		transform: translateX(-50%);
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	section .dian li{
+		width: 0.2rem;
+		height: 0.2rem;
+		background: #ffffff;
+		border-radius: 50%;
+	}
+	section .dian .hot{
+		background: red;
+	}
+.tp .qiqiu{
+	width: 100%;
+	height: 100%;
+}
+.tp .qiqiu img{
+	width: 100%;
+	height: 100%;
+}
+.top{
+	height: 45px;
+	width: 375px;
+	background: pink;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(0deg,rgba(0,0,0,0),rgba(0,0,0,0.7));
+    background-color: rgba(0,0,0,0);
+}
+.top .logo{
+	width: 40px;
+	height: 40px;
+	margin-top: 3px;
+	margin-left: 8px;
+	float: left;
+}
+.top .logo a{
+	width: 100%;
+	height: 100%;
+}
+.top .logo a img{
+	width: 100%;
+	height: 100%;
+}
+.top .dizhi{
+	width: 28px;
+	height: 44px;
+	margin-left: 5px;
+	line-height: 44px;
+	color: #fff;
+	float: left;
+	font-size: 14px;
+}
+.top .center{
+	width: 226px;
+	height: 32px;
+	float: left;
+	/* border-radius: 10px; */
+	padding: 6px 0;
+}
+.top .center .center1{
+	margin: 0 5px 0 10px;
+	width: 211px;
+	height: 32px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.top .center .center1 a{
+	width: 20px;
+	color: #fff;
+	position: absolute;
+    right: auto;
+    top: 5px;
+    left: 7px;
+    width: 25px;
+    color: #a6a6a6;
+    font-size: 18px;
+
+}
+.top .center .center1 input{
+	width: 211px;
+	height: 32px;
+	padding: 7px 5px 7px 30px;
+	box-sizing: border-box;
+	border-radius: 7px;
+    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+}
+.top .right{
+	width: 34px;
+	height: 44px;
+	float: left;
+}
+.top .right a{
+	width: 100%;
+	height: 100%;
+	font-size: 24px;
+	color: #fff;
+	line-height: 44px;
+	text-align: center;
+}
+.top1{
+	width: 100%;
+	height: 
+}
+.tp1{
+	width: 350px;
+	height: 144px;
+	padding: 0 3.33333333% 8px;
+}
+.tp1 .con{
+	width: 70px;
+	height: 62px;
+	padding: 10px 0 0;
+	float: left;
+}
+.tp1 .con a{
+	width: 100%;
+	height: 100%;
+}
+.tp1 .con a img{
+	width: 40px;
+	height: 40px;
+	margin: 0 15px;
+}
+.tp1 .con a .yihao{
+	padding-top: 4px;
+    height: 22px;
+    line-height: 16px;
+    width: 100%;
+    color: #757575;
+    text-align: center;
+    font-size: 12px;
+    box-sizing: border-box;
+
+}
+.tp2{
+	width: 100%;
+	height: 100px;
+}
+.tp2 a{
+	width: 100%;
+	height: 100%;
+}
+.tp2 a img{
+	width: 100%;
+	height: 100%;
+}
+.tp3{
+	width: 375px;
+	height: 32px;
+	margin-bottom: 10px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	/* background: red; */
+}
+.tp3 .con{
+	width: 328px;
+	height: 30px;
+    padding-left: 15px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 30px;
+   /*  overflow: hidden; */
+}
+.tp3 .con .con1{
+	width: 64px;
+    height: 14px;
+    padding: 7px 0;
+    background-image: url("../img/shouye/logoxue.png");
+   /*  background-size: 152px 172px;
+    background-position: 0 -146px; */
+    background-repeat: no-repeat;
+    background-size: 76px 86px;
+    background-position: 1px -65px;
+    float: left;
+}
+.tp3 .con .con2{
+	width: 252px;
+	height: 30px;
+	padding-left: 12px;
+	float: left;
+}
+.tp3 .con .con2 a{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	color: black;
+	line-height: 30px;
+}
+.tp4{
+	width: 355px;
+	height: 34px;
+	padding:0 10px;
+	background: #F5F8FB;
+}
+.tp4 .con{
+	width: 70px;
+	height: 16px;
+	padding: 9px 0;
+    margin-right: 11px;
+    float: left;
+}
+.tp4 .con .con1{
+	width: 16px;
+	height: 16px;
+	background-image: url("../img/shouye/logoxue.png");
+	background-size: 76px 86px;
+	background-position: 0 -22px;
+	float: left;
+}
+.tp4 .con .con2{
+	width: auto;
+	height: 16px;
+	font-size: 14px;
+	line-height: 16px;
+}
+.tp4 .con-1{
+	width: 115px;
+	height: 16px;
+	padding: 9px 0;
+	float: left;
+}
+.tp4 .con-1 .con1{
+	width: 36px;
+	height: 16px;
+	padding-left: 4px;
+	background: #FA516A;
+	color: #fff;
+	font-size: 12px;
+	line-height: 16px;
+	float: left;
+}
+.tp4 .con-1 .con2{
+	width: 74px;
+	height: 16px;
+	border: 1px solid #FD785E;
+	box-sizing: border-box;
+	float: left;
+}
+.tp4 .con-2{
+	width: 68px;
+	height: 16px;
+	float: right;
+    margin-top: 8px;
+    padding: 1px 7px;
+    border-radius: 10px;
+    background: red;
+}
+.tp4 .con-2 a{
+	/* margin-right: 3px; */
+    color: #fff;
+    line-height: 16px;
+    width: auto;
+    height: 16px;
+    font-size: 12px;
+    float: left;
+}
+.tp5{
+	width: 375px;
+	height: 177px;
+	padding-bottom: 10px;
+	background: #F5F8FB;
+	overflow: hidden;
+}
+.tp5 .con{
+	width: 1000px;
+	height: 100%;
+}
+.tp5 .con .con1{
+	width: 100px;
+	height: 100%;
+	background: #F5F8FB;
+	margin-left: 8px;
+	float: left;
+}
+.tp5 .con .con1 a{
+	width: 100%;
+	height: 100%;
+}
+.tp5 .con .con1 a img{
+	width: 100px;
+	height: 100px;
+}
+.tp5 .con .con1 a .con1-1{
+	width: 100%;
+	margin: 5px 0;
+    height: 36px;
+   /*  line-height: 18px; */
+    color: #212121;
+    font-size: 14px;
+    overflow: hidden;
+}
+.tp5 .con .con1 a .con1-2{
+	width: 100%;
+	height: 31px;
+}
+.tp5 .con .con1 a .con1-2 .con1-21{
+	width: 58px;
+	height: 16px;
+	padding-top: 7.8125%;
+	float: left;
+	color: #FF3C25;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 800;
+}
+.tp5 .con .con1 a .con1-2 .con1-22{
+	width: 42px;
+	height: 31px;
+	float: right;
+}
+.tp5 .con .con1 a .con1-2 .con1-22 .con1-221{
+	width: 36px;
+	height: 12px;
+	padding: 0 2px;
+	border: 1px  solid rgba(203,203,204,0.5);
+	border-radius: 3px;
+	color: #bbb;
+	font-size: 12px;
+	line-height: 12px;
+}
+.tp5 .con .con1 a .con1-2 .con1-22 .con1-222{
+	margin-top: 3px;
+	color: #bbb;
+	font-size: 14px;
+	width: 42px;
+	height: 14px;
+	line-height: 14px;
+}
+.tp6{
+	width: 100%;
+	height: 16px;
+	padding: 9px 0;
+	color: #212121;
+    font-size: 14px;
+    text-align: center;
+}
+.tp6 .con1{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+	background-image: url("../img/shouye/logoxue.png");
+	background-size: 76px 86px;
+	background-position: -25px -22px;
+	float: left;
+	margin-left: 150px;
+}
+.tp6 .con2{
+	float: left;
+	font-size: 16px;
+	line-height: 16px;
+}
+.tp7{
+	width: 375px;
+	height: 273px;
+	/* background: pink; */
+}
+.tp7 .con{
+	width: 375px;
+	height: 91px;
+	
+	border-bottom: 1px solid #F2F2F2;
+	box-sizing: border-box;
+}
+.tp7 .con:first-child{
+	border-top: 1px solid #F2F2F2;
+}
+.tp7 .con  a{
+	width: 100%;
+	height: 100%;
+}
+.tp7 .con .con1{
+	width: 187px;
+	height:90px;
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.tp7 .con  .con1-1{
+	height: 41px;
+	width: 60%;
+    padding-left: 15px;
+    padding-right: 4px;
+    margin-top: 25px;
+}
+.tp7 .con  .con1-2{
+	width: 90px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.tp7 .con  .con1-2 img{
+	width: 90px;
+	height: 100%;
+}
+.tp7 .con  .con1-1 .con1-11{
+	height: 20px;
+    line-height: 20px;
+    color: #212121;
+    font-size: 16px;
+}
+.tp7 .con  .con1-1 .con1-12{
+	height: 16px;
+    line-height: 16px;
+    color: #212121;
+    font-size: 12px;
+    color: #b1483f;
+    margin-top: 2px;
+    max-width: 100%;
+}
+.tp7 .con .con2{
+	width: 188px;
+	height:90px;
+	border-left: 1px solid #F2F2F2; 
+	box-sizing: border-box;
+	/* background: #ccc; */
+	float: left;
+	position: relative;
+	top: 0;
+	right: 0;
+}
+.tp8{
+	width: 100%;
+	height: 16px;
+	padding: 9px 0;
+	color: #212121;
+    font-size: 14px;
+    text-align: center;
+}
+.tp8 .con1{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+	background-image: url("../img/shouye/logoxue.png");
+	background-size: 76px 86px;
+	background-position: -52px -22px;
+	float: left;
+	margin-left: 150px;
+}
+.tp8 .con2{
+	float: left;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.tp9{
+	width: 100%;
+	height: 90px;
+	display: flex;
+	justify-content: space-between;
+}
+.tp9 .con{
+	width: 187px;
+	height: 100%;
+	background: #EBF0F4;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.tp9 .con a{
+	width: 100%;
+	height: 100%;
+}
+.tp9 .con  .con1-1{
+	height: 41px;
+	width: 60%;
+    padding-left: 15px;
+    padding-right: 4px;
+    margin-top: 25px;
+}
+.tp9 .con  .con1-2{
+	width: 90px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.tp9 .con  .con1-2 img{
+	width: 90px;
+	height: 100%;
+}
+.tp9 .con  .con1-1 .con1-11{
+	height: 20px;
+    line-height: 20px;
+    color: #212121;
+    font-size: 16px;
+}
+.tp9 .con  .con1-1 .con1-12{
+	width: 63px;
+	height: 14px;
+    line-height: 14px;
+    color: #212121;
+    font-size: 12px;
+    color: #b1483f;
+    margin-top: 2px;
+    max-width: 100%;
+    border: 1px solid red;
+    /* padding: 0 2px; */s
+}
+.tp10{
+	width: 375px;
+	height: 126px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1px;
+}
+.tp10 .con a{
+	width: 100%;
+	height: 100%;
+}
+.tp10 .con{
+	width: 124px;
+	height: 100%;
+	background: #EBF0F4;
+}
+.tp10 .con:last-child{
+	width: 125px;
+}
+.tp10 .con .con1{
+	width: 116px;
+	height: 41px;
+	padding-top: 10px;
+	padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+.tp10 .con .con1 .con1-1{
+	height: 20px;
+    line-height: 20px;
+    color: #212121;
+    font-size: 16px;
+}
+.tp10 .con .con1 .con1-2{
+	width: auto;
+	height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+   	color: #e09e0f;
+    margin-top: 2px;
+    max-width: 100%;
+    border: 1px solid #e09e0f;
+    float: left;
+    margin-left: 28px;
+}
+.tp10 .con .con2{
+	width: 124px;
+	height: 75px;
+}
+.tp10 .con .con2 img{
+	width: 124px;
+	height: 75px;
+}
+.tp11,.tp11 a,.tp11 a img{
+	width: 375px;
+	height: 100px;
+}
+.tp12{
+	width: 100%;
+	height: 16px;
+	padding: 9px 0;
+	color: #212121;
+    font-size: 14px;
+    text-align: center;
+}
+.tp12 .con1{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+	background-image: url("../img/shouye/logoxue.png");
+	background-size: 76px 86px;
+	background-position: 0 0;
+	float: left;
+	margin-left: 150px;
+}
+.tp12 .con2{
+	float: left;
+	font-size: 16px;
+	line-height: 16px;
+}
+.tp13{
+	width: 100%;
+	height: 125px;
+	display: flex;
+	justify-content: space-between;
+}
+.tp13 .con{
+	width: 249px;
+	height: 125px;
+	background: #F1F2F7;
+	position: relative;
+	top: 0;
+	left:0; 
+}
+.tp3 .con a{
+	width: 100%;
+	height: 100%;
+}
+.tp13 .con .con1-1{
+	width: 46%;
+	height: 37px;
+	padding: 0 4px;
+	margin-top: 44px;
+	text-align: center;
+}
+.tp13 .con .con1-1 .con1-11{
+	height: 16px;
+    line-height: 16px;
+    color: #212121;
+    font-size: 16px;
+}
+.tp13 .con .con1-1 .con1-12{
+	background-image: linear-gradient(90deg,#b664de,#f58af4);
+	height: 16px;
+    padding: 0 5px;
+    line-height: 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+.tp13 .con .con1-2{
+	width: 49.6%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.tp13 .con .con1-2 img{
+	width: 100%;
+	height: 100%;
+}
+.tp13 .con1{
+	width: 125px;
+	height: 100%;
+	background: #F1F2F7;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.tp13 .con1 a{
+	width: 100%;
+	height: 100%;
+}
+.tp13 .con1 .con1-1{
+	width: 117px;
+	height: 34px;
+	padding-top: 10px;
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.tp13 .con1 .con1-1 .con1-11{
+	height: 16px;
+    line-height: 16px;
+    color: #212121;
+    font-size: 16px;
+}
+.tp13 .con1 .con1-1 .con1-12{
+	background-image: linear-gradient(90deg,#00b7ee,#2dcfff);
+	height: 16px;
+    padding: 0 5px;
+    line-height: 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+.tp13 .con1 .con1-2{
+	width: 100%;
+    height: 60.48387097%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.tp13 .con1 .con1-2 img{
+	width: 100%;
+	height: 100%;
+}
+.tp14{
+	width: 375px;
+	height: 126px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1px;
+}
+.tp14 .con a{
+	width: 100%;
+	height: 100%;
+}
+.tp14 .con{
+	width: 124px;
+	height: 100%;
+	background: #EBF0F4;
+}
+.tp14 .con:last-child{
+	width: 125px;
+}
+.tp14 .con .con1{
+	width: 116px;
+	height: 37px;
+	padding-top: 10px;
+	padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+.tp14 .con .con1 .con1-1{
+	height: 20px;
+    line-height: 20px;
+    color: #212121;
+    font-size: 16px;
+}
+.tp14 .con .con1 .con1-2{
+	width: auto;
+	height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+   	color: #ccc;
+    margin-top: 2px;
+    max-width: 100%;
+}
+.tp14 .con .con2{
+	width: 124px;
+	height: 75px;
+}
+.tp14 .con .con2 img{
+	width: 124px;
+	height: 75px;
+}

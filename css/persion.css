@@ -1,0 +1,240 @@
+/*
+* @Author: cat
+* @Date:   2017-11-20 18:35:57
+* @Last Modified by:   cat
+* @Last Modified time: 2017-12-02 13:30:20
+*/
+@import url('base.css');
+body,h1,h2,h3,h4,h5,h6,input,p{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+body{
+	font-size: 12px;
+	background: #EEEEEE;
+}
+image{
+	display: block;
+}
+input{
+	display: block;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+.box{
+	height: 44px;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fe555d;
+}
+.box .top{
+	width: 23px;
+	height: 30px;
+	padding: 0 5px;
+	color: #fff;
+	line-height: 30px;
+	font-size: 20px;
+	float: left;
+	position: absolute;
+    left: 0;
+    top: 7px;
+    width: 23px;
+    height: 30px;
+    text-align: center;
+}
+.box  .top  a{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+.box .top1{
+	width: 23px;
+	height: 30px;
+	padding: 0 5px;
+	color: #fff;
+	line-height: 30px;
+	font-size: 24px;
+	float: left;
+	position: absolute;
+    left: 27px;
+    top: 5px;
+    width: 23px;
+    height: 30px;
+    text-align: center;
+}
+.box .top2{
+	width: 56px;
+	height: 44px;
+	padding: 0 10px;
+	float: right;
+	font-size: 14px;
+	line-height: 44px;
+	color: #fff;
+}
+.box0{
+	width: 375px;
+	height: 110px;
+	margin-top: 44px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.box0 .box1{
+	width: 270px;
+	height: 58px;
+	padding: 0 15px 0 90px;
+	background: #FE555D;
+	
+}
+.box0 .box0-1{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 15px;
+	top: 10px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.box0 .box0-1 img{
+	width: 100%;
+	height: 100%;
+}
+.box0 .box1 .box1-1{
+	width: auto;
+	height: 20px;
+	margin-right:10px;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: left;
+	color: #fff;
+	float: left;
+	margin-top: 29px;
+}
+.box0 .box1 .box1-2{
+	width: 40px;
+	height: 18px;
+	border-radius: 40px;
+    border: 1px solid #fe7370;
+    background: url("../img/persion/xin.png") no-repeat left center;
+    background-size: contain;
+    float: left;
+    margin-top: 29px;
+}
+.box0 .box1 a{
+	width: 20px;
+	height: 21px;
+	float: right;
+	margin-top: 27px;
+	color: #fff;
+	font-size: 24px;
+	line-height: 21px;
+	text-align: center;
+}
+.box0 .box2{
+	height: 52px;
+	width: 295px;
+	padding-left: 80px;
+	background: #fff;
+}
+.box0 .box2 .box2-1{
+	width: 98px;
+	height: 52px;
+	background: #fff;
+	float: left;
+}
+.box0 .box2 .box2-1 a{
+	width: 100%;
+	height: 100%;
+	color: black;
+	text-align: center;
+	overflow: hidden;
+}
+.box0 .box2  .box2-1:last-child{
+	border-left: 1px solid #e0e0e0;
+}
+.box0 .box2 .box2-1 a .box2-11{
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+.box3{
+	margin-top: 10px;
+    border-bottom: 1px #e0e0e0 solid;
+    background-color: #fff;
+    width: 375px;
+    height: 129px;
+}
+.box3 .tp1{
+	height: 44px;
+    line-height: 44px;
+    padding: 0 15px;
+    border-bottom: 1px #e0e0e0 solid;
+    color: #333;
+  	font-size: 16px;
+}
+.box3 .tp2{
+	width: 100%;
+	height: 84px;
+}
+.box3 .tp2 .tp2-1{
+	width: 33.333333%;
+	height: 100%;
+	float: left;
+}
+.box3 .tp2 .tp2-1 a{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.box3 .tp2 .tp2-1 .tp2-11{
+	font-size: 24px;
+    color: #999;
+    margin-top: 15px;
+}
+.box3 .tp2 .tp2-1 .tp2-12{
+	margin-top: 8px;
+    font-size: 12px;
+    color: #333;
+}
+.box4{
+	margin-top: 10px;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+.box4 .tp1{
+	width: 33.333333%;
+	height: 100%;
+	float: left;
+}
+.box4 .tp1 a{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.box4 .tp1 a .tp1-1{
+	color: #fc8485;
+	width: 38px;
+	height: 38px;
+	font-size: 38px;
+	line-height: 38px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.box4 .tp1 a .tp1-2{
+	margin-top: 5px;
+    color: #333;
+	height: 16px;
+}
+.box4 .tp1:nth-child(2) a .tp1-1{
+	color: #feb358;
+}
+.box4 .tp1:nth-child(3) a .tp1-1{
+	color: #5cb9ff;
+}

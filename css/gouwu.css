@@ -1,0 +1,193 @@
+/*
+* @Author: cat
+* @Date:   2017-11-18 07:28:41
+* @Last Modified by:   cat
+* @Last Modified time: 2017-12-02 12:03:40
+*/
+@import url('base.css');
+body,h1,h2,h3,h4,h5,h6,input,p{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+body{
+	font-size: 12px;
+}
+image{
+	display: block;
+}
+input{
+	display: block;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+.box .top{
+	width: 100%;
+	height: 44px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .tpleft{
+	width: 23px;
+	height: 23px;
+	/* background: black; */
+	margin-left: 3px;
+}
+.top .tpleft a{
+	width:100%;
+	height: 100%;
+	font-size: 23px;
+	color: #FF3C3C;
+}
+.top .tpcenter{
+	width: 50%;
+	height: 44px;
+	/* margin: 0 auto; */
+	line-height: 44px;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+}
+.top .tpright{
+	width: 24px;
+	height: 24px;
+	/* background: black; */
+	margin-right: 8px;
+}
+.tp{
+	width: 100%;
+	height: 566px;
+	background: #F5F5F5;
+	overflow: hidden;
+}
+.tp .tp1{
+	width: 375px;
+	border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    height: 32px;
+    line-height: 32px;
+    background-color: #f8f8f8;
+    margin-top: 10px;
+}
+.tp .tp1 .red{
+	width: 10px;
+    height: 20px;
+    float: left;
+    margin-top: 6px;
+    /* padding-left: 10px; */
+    border-left: 2px solid #ff3c25;
+   /*  font-size: 1.4rem; */
+}
+.tp .tp1 input{
+	width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 6px;
+}
+.tp .tp1 .con{
+	color: #666;
+	font-size: 14px;
+	float: left;
+}
+.tp2{
+	width: 355px;
+	height: 83px;
+	padding: 10px 10px 0 10px;
+	background-color: #fff;
+	border-bottom: 1px solid #e0e0e0;
+}
+.tp .tp2 input{
+	width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 31px;
+    margin-right: 10px;
+}
+.tp .tp2 .con{
+	width: 65px;
+    height: 65px;
+    margin-right: 10px;
+    float: left;
+}
+.tp .tp2 .con img{
+	width: 100%;
+	height: 100%;
+}
+.tp .tp2 .con1{
+	width: 208px;
+	height: 100%;
+	float: left;
+}
+.tp .tp2 .con1 .con1-1{
+	width: auto;
+	height: auto;
+	float: left;
+	color: #111;
+}
+.tp .tp2 .con1 .con1-2{
+	width: auto;
+	height: auto;
+	/* float: left; */
+	color: #999;
+}
+.tp .tp2 .con1 .con1-3{
+	width: auto;
+	height: auto;
+	/* float: left; */
+	color: #ff3c3c;
+	margin-top: 5px;
+	font-size: 14px;
+}
+.tpbt{
+	width: 375px;
+	height: 61px;
+	background: #fff;
+}
+.tpbt .con{
+	width: 25px;
+	height: 41px;
+	padding: 10px;
+    color: #bdbdbd;
+    text-align: center;
+    float: left;
+}
+.tpbt .con input{
+	width: 20px;
+    height: 20px;
+    float: left;
+   /*  margin-top: 31px;
+    margin-right: 10px; */
+}
+.tpbt .con  .xuan{
+	color: #bdbdbd;
+	font-size: 12px;
+}
+.tpbt .con1{
+	padding: 10px;
+	width: 228px;
+	height: 41px;
+	 float: left;
+}
+.tpbt .con1 .money{
+	color: #ff3c3c;
+}
+.tpbt .con1 .shang{
+	color: #757575;
+}
+.tpbt .con2{
+	width: 51px;
+	height: 100%;
+	padding: 0 15px;
+	float: right;
+	background: #FF3C25;
+	line-height: 55px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+}

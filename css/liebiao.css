@@ -1,0 +1,183 @@
+/*
+* @Author: cat
+* @Date:   2017-11-22 22:32:39
+* @Last Modified by:   cat
+* @Last Modified time: 2017-12-02 12:04:39
+*/
+@import url('base.css');
+body,h1,h2,h3,h4,h5,h6,input,p{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+body{
+	font-size: 12px;
+	padding-top: 44px;
+	height: 2000px;
+	background: #F8F8F8;
+}
+image{
+	display: block;
+}
+input{
+	display: block;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+.box{
+	width: 100%;
+	height: 44px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 6;
+}
+.box .top{
+	width: 100%;
+	height: 44px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .tpleft{
+	width: 23px;
+	height: 23px;
+	/* background: black; */
+	margin-left: 3px;
+}
+.top .tpleft a{
+	width:100%;
+	height: 100%;
+	font-size: 23px;
+	color: #FF3C3C;
+}
+.top .tpcenter{
+	width: 50%;
+	height: 44px;
+	/* margin: 0 auto; */
+	line-height: 44px;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+}
+.top .tpright{
+	width: 24px;
+	height: 24px;
+	/* background: black; */
+	margin-right: 8px;
+}
+.top .tpright a{
+	width:100%;
+	height: 100%;
+	font-size: 24px;
+	color: #FF3C3C;
+}
+.box1{
+	width: 100%;
+	height: auto;
+}
+.box1 .tp1{
+	padding: 0 10px;
+    background-color: #eee;
+    width: 56px;
+    height: auto;
+    float: left;
+    overflow-y: scroll;
+}
+.box1 .tp1 .tp1-1{
+	position: relative;
+    display: block;
+    height: 63px;
+    padding: 17px 0 0;
+    white-space: nowrap;
+    line-height: 24px;
+    color: #757575;
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;
+}
+.box1 .tp1 .tp1-1::after{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+.box1 .tp1 .tp1-1 a{
+	width: 100%;
+	height: 100%;
+}
+.box1 .tp1 .tp1-1 a img{
+	width: 22px;
+	height: 22px;
+	margin:0 auto;
+}
+.box1 .tp1 .tp1-1 a .zi{
+	color: #757575;
+	text-align: center;
+}
+.box1 .tp2{
+	width: 299px;
+	height: auto;
+	float: left;
+	 overflow-y: scroll;
+}
+.box1 .tp2 .con{
+	width: 100%;
+	height: 196px;
+	background: #fff;
+}
+.box1 .tp2 .con .aa{
+	height: 20px; */
+    overflow: hidden;
+    padding: 3.125% 3.125%;
+    background: #f8f8f8;
+}
+.box1 .tp2 .con .aa h3{
+	width: 190px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 20px;
+    color: #111;
+    font-size: 12px;
+    font-weight: normal;
+}
+.box1 .tp2 .con .aa h3::before{
+	content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 7px;
+   background-color: #ff8a65;
+    border-radius: 50%;
+    vertical-align: 1px;
+}
+.box1 .tp2 .con .con1{
+	padding: 3.125% 3.125%;
+	height: auto;
+}
+.box1 .tp2 .con .con1 a{
+
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    width: 32%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 2%;
+    text-align: center;
+    color: #212121;
+    font-size: 12px;
+
+}
+.box1 .tp2 .con .con1 a:nth-child(3n){
+	margin-right: 0;
+}
